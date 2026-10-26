@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compará carreras técnicas y terciarias y encontrá dónde estudiar.">
+  <title>Elige tu Futuro | Orientación educativa valen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#inicio">🎓 Elegí tu Futuro</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#carreras">Carreras</a></li>
+          <li class="nav-item"><a class="nav-link" href="#comparacion">Comparar</a></li>
+          <li class="nav-item"><a class="nav-link" href="#requisitos">Requisitos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Inscripción</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero d-flex align-items-center">
+    <div class="container py-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <span class="badge text-bg-warning mb-3">Tu próximo paso empieza acá</span>
+          <h1 class="display-4 fw-bold">Elegí una carrera. <span class="text-accent">Construí tu futuro.</span></h1>
+          <p class="lead my-4">Conocé opciones técnicas y terciarias, compará sus características y encontrá información para dar tus primeros pasos después de la secundaria.</p>
+          <a href="#carreras" class="btn btn-primary btn-lg me-2 mb-2">Explorar carreras</a>
+          <a href="#contacto" class="btn btn-outline-light btn-lg mb-2">Consultar inscripción</a>
+        </div>
+        <div class="col-lg-5">
+          <img class="img-fluid hero-img" src="https://tse1.mm.bing.net/th/id/OIP.YQ5T-jmGLefQir5cKu3jzwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Estudiantes en un espacio educativo">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="carreras" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">Descubrí tus opciones</p>
+          <h2 class="fw-bold">Carreras para tu próximo desafío</h2>
+          <p class="text-secondary">Tres áreas con distintas habilidades, tiempos de estudio y oportunidades laborales.</p>
+        </div>
+        <div id="carrerasCarousel" class="carousel slide shadow rounded-4 overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrerasCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Carrera 1"></button>
+            <button type="button" data-bs-target="#carrerasCarousel" data-bs-slide-to="1" aria-label="Carrera 2"></button>
+            <button type="button" data-bs-target="#carrerasCarousel" data-bs-slide-to="2" aria-label="Carrera 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=85" class="d-block w-100 carousel-img" alt="Computadora y trabajo tecnológico">
+              <div class="carousel-caption">
+                <h3>Desarrollo de Software</h3>
+                <p>Creá páginas web, aplicaciones y soluciones digitales.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1400&q=85" class="d-block w-100 carousel-img" alt="Trabajo técnico con herramientas">
+              <div class="carousel-caption">
+                <h3>Automatización y Robótica</h3>
+                <p>Diseñá y mantené sistemas automáticos y equipos tecnológicos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://planeamientoeducativo.tech/images/formaciondocenteia.jpg" class="d-block w-100 carousel-img" alt="Estudiantes aprendiendo en clase">
+              <div class="carousel-caption">
+                <h3>Formación Docente</h3>
+                <p>Acompañá el aprendizaje y ayudá a formar a las próximas generaciones.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrerasCarousel" data-bs-slide="prev" aria-label="Anterior"><span class="carousel-control-prev-icon"></span></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrerasCarousel" data-bs-slide="next" aria-label="Siguiente"><span class="carousel-control-next-icon"></span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light section-padding">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">Conocé las alternativas</p>
+          <h2 class="fw-bold">Tres áreas para explorar</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card career-card h-100">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Computadora para programar">
+              <div class="card-body d-flex flex-column">
+                <span class="badge badge-blue align-self-start mb-2">Tecnología</span>
+                <h3 class="h5 card-title">Desarrollo de Software</h3>
+                <p class="card-text text-secondary">Ideal si te gusta resolver problemas, programar y crear herramientas digitales.</p>
+                <a href="#comparacion" class="btn btn-outline-primary mt-auto">Comparar carrera</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card career-card h-100">
+              <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Herramientas de trabajo técnico">
+              <div class="card-body d-flex flex-column">
+                <span class="badge badge-green align-self-start mb-2">Industria</span>
+                <h3 class="h5 card-title">Automatización y Robótica</h3>
+                <p class="card-text text-secondary">Para quienes disfrutan la electrónica, las máquinas y los sistemas de control.</p>
+                <a href="#comparacion" class="btn btn-outline-primary mt-auto">Comparar carrera</a>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card career-card h-100">
+              <img src="https://planeamientoeducativo.tech/images/formaciondocenteia.jpg" class="card-img-top" alt="Aula de formación">
+              <div class="card-body d-flex flex-column">
+                <span class="badge badge-orange align-self-start mb-2">Educación</span>
+                <h3 class="h5 card-title">Formación Docente</h3>
+                <p class="card-text text-secondary">Una opción para enseñar, planificar actividades y acompañar a estudiantes.</p>
+                <a href="#comparacion" class="btn btn-outline-primary mt-auto">Comparar carrera</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comparacion" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">Decidí con información</p>
+          <h2 class="fw-bold">Compará las carreras</h2>
+          <p class="text-secondary">Los datos son orientativos: verificá la duración, modalidad y oferta vigente con cada institución.</p>
+        </div>
+        <div class="table-responsive shadow-sm rounded-3">
+          <table class="table table-bordered table-hover align-middle mb-0">
+            <thead class="table-dark">
+              <tr><th scope="col">Carrera</th><th scope="col">Duración estimada</th><th scope="col">Modalidad</th><th scope="col">Institución de referencia</th><th scope="col">Salida laboral</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Desarrollo de Software</th><td>2–3 años</td><td>Presencial / híbrida</td><td>Instituto técnico superior</td><td>Programador junior, desarrollador web, soporte de sistemas.</td></tr>
+              <tr><th scope="row">Automatización y Robótica</th><td>3 años aprox.</td><td>Presencial</td><td>Instituto técnico o centro de formación</td><td>Asistente técnico, mantenimiento, automatización industrial.</td></tr>
+              <tr><th scope="row">Formación Docente</th><td>4 años aprox.</td><td>Presencial / combinada</td><td>Instituto Superior de Formación Docente</td><td>Docencia según título y nivel habilitante.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small text-secondary mt-3">Importante: las carreras e instituciones de esta tabla son ejemplos para el proyecto escolar. Confirmá la oferta oficial antes de inscribirte.</p>
+      </div>
+    </section>
+
+    <section id="requisitos" class="section-padding bg-light">
+      <div class="container">
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-6">
+            <p class="eyebrow">Antes de anotarte</p>
+            <h2 class="fw-bold mb-3">Requisitos básicos</h2>
+            <p class="text-secondary">Cada institución puede pedir documentación adicional. Como guía general, prepará:</p>
+            <ul class="check-list">
+              <li>Título secundario o constancia de título en trámite.</li>
+              <li>DNI vigente y fotocopia.</li>
+              <li>Partida de nacimiento, si la solicitan.</li>
+              <li>Foto tipo carnet, si corresponde.</li>
+              <li>Formulario de preinscripción y documentación específica de la carrera.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="info-panel">
+              <h3 class="h4 fw-bold">Fechas de inscripción</h3>
+              <p>Las fechas cambian según la institución y el ciclo lectivo.</p>
+              <div class="date-row"><span>Preinscripción</span><strong>Consultar calendario oficial</strong></div>
+              <div class="date-row"><span>Entrega de documentación</span><strong>Confirmar con alumnado</strong></div>
+              <div class="date-row"><span>Inicio de clases</span><strong>Según calendario académico</strong></div>
+              <a href="#contacto" class="btn btn-primary mt-3">Consultar fechas</a>
+              <p class="small text-secondary mt-3 mb-0">No se publican fechas inventadas: consultá los canales oficiales para obtener información actualizada.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sede" class="section-padding">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">Encontrá tu sede</p>
+          <h2 class="fw-bold">Ubicación de referencia</h2>
+          <p class="text-secondary">Usá el mapa para buscar instituciones de educación superior en la zona de Glew y Almirante Brown.</p>
+        </div>
+        <div class="map-wrap">
+          <iframe title="Mapa de instituciones educativas en Almirante Brown" src="https://www.google.com/maps?q=institutos%20terciarios%20Glew%20Buenos%20Aires&output=embed" width="100%" height="380" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+        <p class="small text-secondary mt-2">El mapa muestra una búsqueda general, no una sede específica. Confirmá la dirección exacta de la institución elegida.</p>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact-section section-padding">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p class="eyebrow text-warning">Estamos para orientarte</p>
+            <h2 class="fw-bold text-white">¿Tenés dudas sobre la inscripción?</h2>
+            <p class="text-white-50">Completá el formulario de consulta de ejemplo o utilizá los datos de contacto de la institución que te interese.</p>
+            <div class="contact-detail"><span>☎</span><div><strong>Teléfono</strong><br><a href="tel:+541142000000"> (011) 4200-0000 (dato de ejemplo)</a></div></div>
+            <div class="contact-detail"><span>✉</span><div><strong>Correo</strong><br><a href="mailto:orientacion@ejemplo.edu.ar">orientacion@ejemplo.edu.ar (ejemplo)</a></div></div>
+            <div class="contact-detail"><span>◷</span><div><strong>Horario de atención</strong><br><span>Lunes a viernes, de 9:00 a 16:00 (referencial)</span></div></div>
+          </div>
+          <div class="col-lg-7">
+            <form id="contactForm" class="contact-form">
+              <h3 class="h4 fw-bold mb-4">Enviar consulta</h3>
+              <div class="row g-3">
+                <div class="col-md-6"><label for="nombre" class="form-label">Nombre y apellido</label><input class="form-control" id="nombre" name="nombre" required></div>
+                <div class="col-md-6"><label for="email" class="form-label">Correo electrónico</label><input class="form-control" type="email" id="email" name="email" required></div>
+                <div class="col-12"><label for="carrera" class="form-label">Carrera de interés</label>
+                  <select class="form-select" id="carrera" name="carrera" required>
+                    <option value="">Elegí una opción</option><option>Desarrollo de Software</option><option>Automatización y Robótica</option><option>Formación Docente</option><option>Todavía no lo sé</option>
+                  </select>
+                </div>
+                <div class="col-12"><label for="mensaje" class="form-label">Tu consulta</label><textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea></div>
+                <div class="col-12"><button class="btn btn-warning btn-lg w-100" type="submit">Preparar consulta</button></div>
+                <div class="col-12"><p id="formMessage" class="small mb-0" aria-live="polite">Este formulario es una demostración y no envía datos a una institución.</p></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">© 2026 Elegí tu Futuro · Proyecto educativo</p>
+      <p class="mb-0">Información orientativa para estudiantes de nivel secundario.</p>
+      <a href="#inicio" class="footer-link">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
